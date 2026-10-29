@@ -120,7 +120,8 @@ son puentes a esas fuentes. No necesitan enlaces simbólicos ni scripts de copia
 `connect-project` distingue verificar o recordar fuentes de adoptar el S0 e
 integrar consumidores. La integración usa la CLI oficial cuando forma parte de
 la petición; la consulta conserva productos y asociaciones. Discovery se ejecuta
-cuando se solicita, incluso si ya está incluido en la petición de preparación.
+cuando se solicita, incluso si ya está incluido en la petición de preparación;
+si no se solicitó, `initialize-s0` lo ofrece al terminar, sin ejecutarlo.
 Project Discovery reúne su método completo y el verificador de `scripts/` en
 `.agents/skills/project-discovery/`; Claude utiliza un puente a esa misma fuente.
 Es independiente y no es un paso obligatorio de OpenSpec;

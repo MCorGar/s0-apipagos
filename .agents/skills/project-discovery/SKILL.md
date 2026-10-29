@@ -56,6 +56,12 @@ opcional. En los repositorios seleccionados localiza README, manifiestos,
 estructura, puntos de entrada, interfaces, configuración de ejemplo y tests
 pertinentes. Amplía la lectura sólo para responder al foco del usuario; no
 necesitas leer veinte repositorios completos para actualizar un componente.
+Haz una pasada por repositorio con esa lista fija —README, manifiesto, punto de
+entrada, rutas, protos o contratos, configuración y migraciones— y amplía sólo
+por una duda concreta. Si el cliente admite subagentes, puedes asignar uno de
+lectura por repositorio, en paralelo y después de capturar la referencia. Ellos
+devuelven hallazgos con su evidencia; tú consolidas un único borrador y pides
+una sola aprobación.
 
 Distingue repositorio Git de componente: un monorepo puede tener varios
 componentes; varios Git pueden pertenecer al mismo sistema. Identifica

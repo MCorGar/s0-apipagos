@@ -146,6 +146,11 @@ su raíz OpenSpec: no se sustituye su configuración por un puntero a sí mismo.
 
 ## 4. Integra cada consumidor compatible
 
+Las secciones 4 y 5 están implementadas en
+[`initialize_s0.py`](../../initialize-s0/scripts/initialize_s0.py) (`plan`,
+`apply-consumers` y `verify`). Úsalo cuando esté disponible; este texto es la
+especificación de su comportamiento y el método manual cuando no lo esté.
+
 En cada raíz Git seleccionada, aplica esta decisión antes de ejecutar `init`:
 
 | Estado encontrado | Acción |
@@ -196,10 +201,13 @@ perfil y los clientes solicitados, con sus instrucciones y capacidades verificad
 Comprueba archivos y contenido, no sólo directorios. `generatedBy` identifica su
 procedencia; una diferencia con la CLI efectiva no obliga a regenerar. No alternes
 las integraciones al cambiar entre ejecutables compatibles. Si faltan archivos,
-comprueba el efecto de `init` sobre los existentes antes de ejecutarlo; no prometas
-que la CLI escribirá únicamente los ausentes. Conserva adaptaciones y cambios
-locales. Si el comando reemplazaría contenido ajeno o una actualización no
-solicitada, informa ese límite y deja pendiente la integración afectada.
+compara los destinos existentes con lo que genera la misma CLI: `init` sobrescribe
+sus archivos administrados aunque tengan cambios locales. Obtén esa referencia
+ejecutando `init` en un repositorio desechable, con registro y `CODEX_HOME`
+temporales, no en copias de los repositorios. Si algún destino existente difiere,
+deja pendiente la integración afectada e informa los archivos; conserva
+adaptaciones y cambios locales. La lista de archivos comprobada por versión está
+en [initialize-s0](../../initialize-s0/SKILL.md#integraciones-conocidas).
 
 ## 5. Alinea las instrucciones y verifica
 

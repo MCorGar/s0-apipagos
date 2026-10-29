@@ -175,7 +175,8 @@ verificar. Si no hay novedades, no reescribas el archivo ni dupliques entradas.
 Sin fuentes verificadas no crees un localizador vacío.
 
 Guarda UTF-8 mediante temporal y reemplazo dentro del mismo directorio. Ante un
-fallo conserva lo anterior y declara la persistencia pendiente. El localizador
+fallo conserva lo anterior y declara la persistencia pendiente.
+`initialize_s0.py write-locator` implementa este paso; úsalo cuando esté disponible. El localizador
 recuerda fuentes; no certifica que los consumidores estén integrados con OpenSpec.
 
 ## Entrega y continuación
