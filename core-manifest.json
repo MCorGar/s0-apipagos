@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "shared": [
+    ".agents/skills/",
+    ".claude/",
+    ".gitattributes",
+    ".gitignore",
+    "CLAUDE.md",
+    "core-manifest.json",
+    "scripts/compare-core.py",
+    "scripts/test_compare_core.py",
+    "tools/openspec-viewer/"
+  ],
+  "review": [
+    "AGENTS.md",
+    "README.md",
+    "INSTALLATION.md",
+    "PLAYBOOK.md",
+    "CORE_OVERVIEW.md",
+    "VALIDATION.md",
+    "openspec/config.yaml"
+  ],
+  "instance": [
+    ".openspec-store/",
+    "context/",
+    "openspec/specs/",
+    "openspec/changes/",
+    "repositories.yaml",
+    "core-adoption.json"
+  ]
+}

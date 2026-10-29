@@ -1,0 +1,3 @@
+interface:
+  display_name: "Project Discovery"
+  short_description: "Descubrir contexto verificable de un sistema"

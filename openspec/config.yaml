@@ -1,0 +1,23 @@
+schema: spec-driven
+
+context: |
+  S0 Core: plantilla de contexto y especificaciones compartidas por sistema.
+  Cada instancia corresponde a un sistema con uno o varios repositorios de código.
+  Aplicar AGENTS.md como instrucciones comunes para cualquier agente.
+  Antes de refinar o proponer, leer context/project.md en la raíz del store.
+  Consultar allí componentes, límites y fuentes canónicas de subsistemas.
+  El comportamiento acordado vive en openspec/specs/; los cambios activos son propuestas.
+  El código y las pruebas ejecutables viven en repositorios consumidores separados.
+  Redactar los artefactos en español. Identificar dudas sin inventar reglas de negocio.
+
+rules:
+  proposal:
+    - Explicar problema, objetivo, alcance y exclusiones.
+    - Referenciar la HDU o solicitud original cuando exista; Jira es opcional.
+    - Identificar componentes afectados y contratos entre sistemas cuando corresponda.
+  specs:
+    - Describir comportamientos observables y verificables.
+    - Cubrir errores, permisos y casos de borde pertinentes.
+  tasks:
+    - Incluir implementación y comprobaciones proporcionales al cambio.
+    - Identificar el repositorio de cada tarea cuando el cambio cruza componentes.

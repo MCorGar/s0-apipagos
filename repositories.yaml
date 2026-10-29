@@ -1,0 +1,5 @@
+# El equipo de cada sistema completa su catálogo con id, remote y branch opcional.
+# connect-project recuerda las rutas personales en la metadata Git local del S0.
+# branch orienta nuevas descargas; no cambia ramas de clones existentes.
+version: 1
+repositories: []

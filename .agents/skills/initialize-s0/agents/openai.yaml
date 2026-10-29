@@ -1,0 +1,3 @@
+interface:
+  display_name: "Initialize S0"
+  short_description: "Inicializar un S0 nuevo o existente con preguntas guiadas"

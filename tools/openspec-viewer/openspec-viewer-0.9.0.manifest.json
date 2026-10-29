@@ -1,0 +1,305 @@
+{
+    "schemaVersion":  1,
+    "edition":  "base",
+    "repository":  "https://github.com/fdelvalle01/sdd-openspec-view",
+    "sourceCommit":  "f156c7c986408a7d8eefe9d8043559586495e806",
+    "sourceTree":  "d7b11f4b262f12a4ed78a0951f416047a082d7bc",
+    "sourceDirectory":  ".",
+    "knowledgeDirectory":  "scripts/conocimiento",
+    "knowledgeSourceTree":  "4ce70d876343f46f64e35358db3deefab1fc7cfc",
+    "knowledgeOrigin":  {
+                            "schemaVersion":  2,
+                            "repository":  "https://github.com/nuamx/nuam-ia-arq-sdd-openspec",
+                            "sourceCommit":  null,
+                            "sourceDirectory":  "scripts/conocimiento",
+                            "sourceTree":  "bc700cf644cea5bcbf0ad49499986c1389ee6d81",
+                            "localDirectory":  "scripts/conocimiento",
+                            "byteIdentical":  false,
+                            "extractedAt":  "2026-10-20",
+                            "viewerOrigin":  {
+                                                 "sourceDirectory":  "View-OpenSpec",
+                                                 "sourceTree":  "ee9281fb5d611ec21fd47fd09e92aa925955d370",
+                                                 "version":  "0.3.2"
+                                             },
+                            "files":  [
+                                          {
+                                              "path":  "cli.mjs",
+                                              "bytes":  7353,
+                                              "sha256":  "ca938af0701686ef81eed6257822a8fc65eaf134f44f53a17c0d14ec94585397",
+                                              "gitBlob":  "c6ae7cb98e2ec55ecc7bd6858867670841db641f"
+                                          },
+                                          {
+                                              "path":  "filesystem.mjs",
+                                              "bytes":  9233,
+                                              "sha256":  "e9b7d7560d04e7b309095f1db660ec4d088fffb95fe940e4ec5d20f7e81f116d",
+                                              "gitBlob":  "6474f4c05dcdd6892fd13b8a1179190725d3d8c1"
+                                          },
+                                          {
+                                              "path":  "index.mjs",
+                                              "bytes":  21582,
+                                              "sha256":  "c9bdd161e4649a351731f637dd78f2485208c3b91442edc9e4151d7263582aec",
+                                              "gitBlob":  "d8133483283dbcdea53fe8861d583cb0951fe6f2"
+                                          },
+                                          {
+                                              "path":  "layout.mjs",
+                                              "bytes":  8359,
+                                              "sha256":  "acb4d797ccf084abef4204f31da858a8922fda3a69806e83465120e3a508bfbc",
+                                              "gitBlob":  "969bd908092ade21b8f6c329b725c61cc9b92328"
+                                          },
+                                          {
+                                              "path":  "markdown.mjs",
+                                              "bytes":  10484,
+                                              "sha256":  "3dccd2fdaff383a4a9f761b148003150d1484dfe1dd27ab265f026da081c9046",
+                                              "gitBlob":  "3e83f990fcd634d74370530c62f897dc9741b729"
+                                          },
+                                          {
+                                              "path":  "moves.mjs",
+                                              "bytes":  19347,
+                                              "sha256":  "2518fc0444ddb9c3ffad5664a01a1d2f7a932eff58775d6dc4ad0441b52dc308",
+                                              "gitBlob":  "b1ffaf5886ae0cf85ef7a90d8b966a34c9e89694"
+                                          }
+                                      ],
+                            "sourceBaseCommit":  "ab94298e6a4a4c2ca18b620bb117524d1f31d674",
+                            "sourceState":  "working-tree-candidate",
+                            "previousSource":  {
+                                                   "repository":  "https://github.com/fdelvalle01/sdd-workspace",
+                                                   "sourceTree":  "8daf5b0b0dca8400d17a768a22e3bb8ee74ced53",
+                                                   "sourceBaseCommit":  "153903a39306d16670b8c9aed35cb9f101e89040"
+                                               },
+                            "upstream":  {
+                                             "files":  [
+                                                           {
+                                                               "path":  "cli.mjs",
+                                                               "bytes":  7353,
+                                                               "sha256":  "ca938af0701686ef81eed6257822a8fc65eaf134f44f53a17c0d14ec94585397",
+                                                               "gitBlob":  "c6ae7cb98e2ec55ecc7bd6858867670841db641f"
+                                                           },
+                                                           {
+                                                               "path":  "filesystem.mjs",
+                                                               "bytes":  8932,
+                                                               "sha256":  "df94df8062c04309a6c7b2a9043b6eb07789e569fabd444f7cdeb4614c04de5c",
+                                                               "gitBlob":  "943b31584dbf8b35b353756b1dd4f8beb7aecd79"
+                                                           },
+                                                           {
+                                                               "path":  "index.mjs",
+                                                               "bytes":  21086,
+                                                               "sha256":  "8bb822de97c8d3d61b94939f05576620879a6042ffea10de5f7e9d15e5f38552",
+                                                               "gitBlob":  "7973e5c58ac14ccc3b33481d8a59b27eb7b085e1"
+                                                           },
+                                                           {
+                                                               "path":  "layout.mjs",
+                                                               "bytes":  6662,
+                                                               "sha256":  "4aa42578951167cb7207735ce05f29353b1e54dbb049ee9854ed326c50890aa7",
+                                                               "gitBlob":  "886ccf30f24a1e4eddda37166c7b70c82402240c"
+                                                           },
+                                                           {
+                                                               "path":  "markdown.mjs",
+                                                               "bytes":  10484,
+                                                               "sha256":  "3dccd2fdaff383a4a9f761b148003150d1484dfe1dd27ab265f026da081c9046",
+                                                               "gitBlob":  "3e83f990fcd634d74370530c62f897dc9741b729"
+                                                           },
+                                                           {
+                                                               "path":  "moves.mjs",
+                                                               "bytes":  19344,
+                                                               "sha256":  "e444ebf271d994f35bcbb58d3fc246eaca3f1d329412db18bda5992f34aa61dd",
+                                                               "gitBlob":  "b4c8e4670025fd67c52ce01b3645993f1a4f742a"
+                                                           }
+                                                       ]
+                                         },
+                            "localTree":  "4ce70d876343f46f64e35358db3deefab1fc7cfc",
+                            "localAdaptation":  {
+                                                    "version":  "0.9.0",
+                                                    "date":  "2026-10-26",
+                                                    "description":  "Viewer-owned adaptation for S0 Core documentation roots, optional literal repositories.yaml and shared document classification; upstream origin is retained without asserting byte equality.",
+                                                    "changedFiles":  [
+                                                                         "filesystem.mjs",
+                                                                         "index.mjs",
+                                                                         "layout.mjs",
+                                                                         "moves.mjs"
+                                                                     ]
+                                                }
+                        },
+    "extension":  "fdelvalle01.openspec-viewer@0.9.0",
+    "package":  {
+                    "sha256":  "172997393f78072523b40cffcd644f71611b5f1d77367b32bff57a7b01ef5bc1",
+                    "file":  "openspec-viewer-0.9.0.vsix",
+                    "bytes":  2159175
+                },
+    "lockfileSha256":  "8d049403226cb0430b1976c25bb32903e6a9dd890affbfc2c405fb9b3bf41ad5",
+    "nodeVersion":  "v22.18.0",
+    "workflowRun":  null,
+    "contents":  [
+                     {
+                         "bytes":  688,
+                         "path":  "[Content_Types].xml"
+                     },
+                     {
+                         "bytes":  2545,
+                         "path":  "extension.vsixmanifest"
+                     },
+                     {
+                         "bytes":  22824,
+                         "path":  "extension/changelog.md"
+                     },
+                     {
+                         "bytes":  704,
+                         "path":  "extension/demo/docs/INDICE.md"
+                     },
+                     {
+                         "bytes":  1247,
+                         "path":  "extension/demo/docs/project.md"
+                     },
+                     {
+                         "bytes":  427,
+                         "path":  "extension/demo/openspec/changes/archive/2026-09-15-catalog-detail/design.md"
+                     },
+                     {
+                         "bytes":  424,
+                         "path":  "extension/demo/openspec/changes/archive/2026-09-15-catalog-detail/proposal.md"
+                     },
+                     {
+                         "bytes":  442,
+                         "path":  "extension/demo/openspec/changes/archive/2026-09-15-catalog-detail/specs/catalog/spec.md"
+                     },
+                     {
+                         "bytes":  366,
+                         "path":  "extension/demo/openspec/changes/archive/2026-09-15-catalog-detail/tasks.md"
+                     },
+                     {
+                         "bytes":  40,
+                         "path":  "extension/demo/openspec/changes/catalog-search/.openspec.yaml"
+                     },
+                     {
+                         "bytes":  935,
+                         "path":  "extension/demo/openspec/changes/catalog-search/design.md"
+                     },
+                     {
+                         "bytes":  1049,
+                         "path":  "extension/demo/openspec/changes/catalog-search/proposal.md"
+                     },
+                     {
+                         "bytes":  802,
+                         "path":  "extension/demo/openspec/changes/catalog-search/specs/catalog/spec.md"
+                     },
+                     {
+                         "bytes":  642,
+                         "path":  "extension/demo/openspec/changes/catalog-search/tasks.md"
+                     },
+                     {
+                         "bytes":  630,
+                         "path":  "extension/demo/openspec/changes/export-summary/proposal.md"
+                     },
+                     {
+                         "bytes":  286,
+                         "path":  "extension/demo/openspec/config.yaml"
+                     },
+                     {
+                         "bytes":  1151,
+                         "path":  "extension/demo/openspec/specs/catalog/spec.md"
+                     },
+                     {
+                         "bytes":  723,
+                         "path":  "extension/demo/repositorios.json"
+                     },
+                     {
+                         "bytes":  1632206,
+                         "path":  "extension/dist/extension.cjs"
+                     },
+                     {
+                         "bytes":  194844,
+                         "path":  "extension/dist/THIRD-PARTY-NOTICES.txt"
+                     },
+                     {
+                         "bytes":  6372,
+                         "path":  "extension/docs/ediciones.md"
+                     },
+                     {
+                         "bytes":  8676,
+                         "path":  "extension/docs/jira.md"
+                     },
+                     {
+                         "bytes":  2540,
+                         "path":  "extension/docs/lectura-s0.md"
+                     },
+                     {
+                         "bytes":  9079,
+                         "path":  "extension/docs/prueba-manual.md"
+                     },
+                     {
+                         "bytes":  8404,
+                         "path":  "extension/media/brand.svg"
+                     },
+                     {
+                         "bytes":  34704,
+                         "path":  "extension/media/fonts/hanken-grotesk-400-700-latin.woff2"
+                     },
+                     {
+                         "bytes":  19588,
+                         "path":  "extension/media/fonts/hanken-grotesk-400-700-latin-ext.woff2"
+                     },
+                     {
+                         "bytes":  31432,
+                         "path":  "extension/media/fonts/jetbrains-mono-400-700-latin.woff2"
+                     },
+                     {
+                         "bytes":  4401,
+                         "path":  "extension/media/fonts/OFL-HankenGrotesk.txt"
+                     },
+                     {
+                         "bytes":  4399,
+                         "path":  "extension/media/fonts/OFL-JetBrainsMono.txt"
+                     },
+                     {
+                         "bytes":  4431,
+                         "path":  "extension/media/fonts/OFL-PTSerif.txt"
+                     },
+                     {
+                         "bytes":  29588,
+                         "path":  "extension/media/fonts/pt-serif-700-latin.woff2"
+                     },
+                     {
+                         "bytes":  9084,
+                         "path":  "extension/media/grid.css"
+                     },
+                     {
+                         "bytes":  5382,
+                         "path":  "extension/media/home.css"
+                     },
+                     {
+                         "bytes":  482,
+                         "path":  "extension/media/icon.svg"
+                     },
+                     {
+                         "bytes":  3298,
+                         "path":  "extension/media/reading-tokens.css"
+                     },
+                     {
+                         "bytes":  19288,
+                         "path":  "extension/media/shell.css"
+                     },
+                     {
+                         "bytes":  7104,
+                         "path":  "extension/media/theme-tokens.css"
+                     },
+                     {
+                         "bytes":  11028,
+                         "path":  "extension/media/ui.css"
+                     },
+                     {
+                         "bytes":  88513,
+                         "path":  "extension/media/view.css"
+                     },
+                     {
+                         "bytes":  5487188,
+                         "path":  "extension/media/view.js"
+                     },
+                     {
+                         "bytes":  3089,
+                         "path":  "extension/package.json"
+                     },
+                     {
+                         "bytes":  21858,
+                         "path":  "extension/readme.md"
+                     }
+                 ]
+}
